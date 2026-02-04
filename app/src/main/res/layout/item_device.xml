@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardDevice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageDeviceIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_dialog_info"
+            android:tint="#2196F3"
+            android:layout_marginEnd="16dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textDeviceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Device Name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/textDeviceAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00:00:00:00:00"
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:id="@+id/textPairStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not paired"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/textSignalStrength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signal: -50 dBm"
+                android:textSize="12sp"
+                android:layout_marginTop="2dp"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/btnPair"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="Pair"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:background="#2196F3"
+            android:gravity="center"
+            android:paddingHorizontal="12dp"
+            android:layout_gravity="center_vertical"
+            android:minWidth="60dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

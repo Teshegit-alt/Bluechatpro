@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">BlueChat Pro</string>
+
+    <!-- Main Activity -->
+    <string name="enable_bluetooth">Enable Bluetooth</string>
+    <string name="disable_bluetooth">Disable Bluetooth</string>
+    <string name="discover_devices">Discover Devices</string>
+    <string name="make_discoverable">Make Discoverable</string>
+    <string name="bluetooth_settings">Bluetooth Settings</string>
+    <string name="bluetooth_status_on">Bluetooth: ON</string>
+    <string name="bluetooth_status_off">Bluetooth: OFF</string>
+
+    <!-- Device List -->
+    <string name="available_devices">Available Devices</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="new_devices">New Devices</string>
+    <string name="all_devices">All Devices</string>
+    <string name="discovering">Discovering devices…</string>
+    <string name="stop_discovery">Stop Discovery</string>
+    <string name="device_paired">Paired</string>
+    <string name="device_not_paired">Not paired</string>
+    <string name="pair">Pair</string>
+    <string name="unpair">Unpair</string>
+
+    <!-- Chat -->
+    <string name="type_message">Type a message…</string>
+    <string name="send">Send</string>
+    <string name="connecting">Connecting…</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connection_lost">Connection lost</string>
+    <string name="message_sent">Sent</string>
+    <string name="message_delivered">Delivered</string>
+    <string name="message_read">Read</string>
+    <string name="message_sending">Sending…</string>
+    <string name="message_failed">Failed</string>
+
+    <!-- Permissions -->
+    <string name="permission_bluetooth_required">Bluetooth permission is required to connect to devices</string>
+    <string name="permission_location_required">Location permission is required to discover nearby devices</string>
+
+    <!-- Errors -->
+    <string name="error_bluetooth_not_supported">Your device doesn\'t support Bluetooth</string>
+    <string name="error_bluetooth_disabled">Please enable Bluetooth first</string>
+    <string name="error_connection_failed">Connection failed. Please try again.</string>
+    <string name="error_pairing_failed">Pairing failed. Please try again.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">BlueChat Messages</string>
+    <string name="notification_channel_description">Notifications for incoming messages</string>
+    <string name="notification_title">New Message</string>
+    <string name="notification_content">You have a new message from %s</string>
+</resources>
